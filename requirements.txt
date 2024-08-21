@@ -3,6 +3,7 @@ pandas==1.5.3
 msrest==0.7.1
 xlsxwriter==3.1.4
 PyMuPDF
+openai
 SpeechRecognition==3.9.0
 playsound==1.2.2
 PyPDF2
