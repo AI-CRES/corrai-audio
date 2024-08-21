@@ -5,8 +5,9 @@ xlsxwriter==3.1.4
 PyMuPDF
 openai
 streamlit-chat
-SpeechRecognition==3.9.0
-playsound==1.2.2
+speechrecognition
+pyaudio
+playsound
 PyPDF2
 pypdf
 tiktoken
