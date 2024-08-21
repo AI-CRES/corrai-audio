@@ -3,7 +3,7 @@ msrest==0.7.1
 PyMuPDF
 openai
 streamlit-chat
-speech_recognition==3.8.1
+speech_recognition
 playsound==1.3.0
 PyPDF2
 pypdf
