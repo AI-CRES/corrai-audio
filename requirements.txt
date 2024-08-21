@@ -13,4 +13,3 @@ langchain
 langchain-community
 langchain_experimental
 cryptography>=3.1 
-portaudio
