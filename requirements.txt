@@ -1,7 +1,5 @@
 streamlit==1.25.0
-pandas==1.5.3
-msrest==0.7.1
-PyMuPDF
+openai
 SpeechRecognition==3.9.0
 playsound==1.2.2
 PyPDF2
@@ -13,3 +11,6 @@ langchain_experimental
 streamlit-chat
 tiktoken
 cryptography>=3.1 
+pandas==1.5.3
+msrest==0.7.1
+PyMuPDF
