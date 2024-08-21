@@ -1,0 +1,10 @@
+streamlit==1.25.0
+pandas==1.5.3
+msrest==0.7.1
+xlsxwriter==3.1.4
+PyMuPDF==1.19.0
+SpeechRecognition==3.9.0
+playsound==1.2.2
+langchain==0.0.201
+PyPDF2==3.0.1
+faiss-cpu==1.7.3
