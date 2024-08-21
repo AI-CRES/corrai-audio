@@ -13,3 +13,4 @@ faiss-cpu
 langchain
 langchain-community
 langchain_experimental
+cryptography>=3.1 
