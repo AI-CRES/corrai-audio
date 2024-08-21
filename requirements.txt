@@ -7,7 +7,6 @@ openai
 streamlit-chat
 SpeechRecognition==3.9.0
 playsound==1.2.2
-pyaudio
 PyPDF2
 pypdf
 tiktoken
