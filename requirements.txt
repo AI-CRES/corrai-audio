@@ -4,6 +4,7 @@ msrest==0.7.1
 xlsxwriter==3.1.4
 PyMuPDF
 openai
+streamlit-chat
 SpeechRecognition==3.9.0
 playsound==1.2.2
 PyPDF2
