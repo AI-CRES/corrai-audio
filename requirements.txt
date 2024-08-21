@@ -1,7 +1,5 @@
 streamlit==1.25.0
-pandas==1.5.3
 msrest==0.7.1
-xlsxwriter==3.1.4
 PyMuPDF
 openai
 streamlit-chat
@@ -15,4 +13,4 @@ langchain
 langchain-community
 langchain_experimental
 cryptography>=3.1 
-pyaudio
+
