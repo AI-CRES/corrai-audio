@@ -1,6 +1,5 @@
 build-essential
 libasound-dev
 portaudio19-dev
-python-pyaudio
-python-gnuradio-audio-portaudio
+python3-pyaudio
 
