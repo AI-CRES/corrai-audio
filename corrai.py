@@ -22,6 +22,10 @@ api_key = st.secrets["API_KEY"]
 client = OpenAI(api_key=api_key)
 openai.api_key = api_key
 
+for index, name in enumerate(sr.Microphone.list_microphone_names()):
+    print("Microphone with name \"{1}\" found for `Microphone(device_index={0})`".format(index, name))
+    st.write("Microphone with name \"{1}\" found for `Microphone(device_index={0})`".format(index, name))
+
 # Initialize the language model (GPT-3.5 Turbo)
 llm = ChatOpenAI(
     openai_api_key=openai.api_key,
