@@ -108,7 +108,7 @@ def search_pdf_content(query):
 
 # Function to listen to audio input and convert to text
 def listen():
-    with sr.Microphone(device_index=2) as source:
+    with sr.Microphone(device_index=0) as source:
         st.write("Listening...")
         audio = recognizer.listen(source)
 
