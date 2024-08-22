@@ -191,9 +191,8 @@ def conversation():
 # Streamlit UI
 st.title("ChatGPT Voice Assistant")
 st.write("Speak to the assistant and it will respond with a voice!")
-for index, name in enumerate(sr.Microphone.list_microphone_names()):
-    print("Microphone with name \"{1}\" found for `Microphone(device_index={0})`".format(index, name))
-    st.write("Microphone with name \"{1}\" found for `Microphone(device_index={0})`".format(index, name))
+
+st.write(sr.Microphone.list_microphone_names())
 
 # File uploader for PDF
 uploaded_file = st.file_uploader("Upload your PDF file", type="pdf")
